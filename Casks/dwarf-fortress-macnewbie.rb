@@ -1,8 +1,8 @@
 class DwarfFortressMacnewbie < Cask
-  version '0.9.3'
-  sha256 '13b28647228ae977c78d302bafeb42cb6e0b62e3b3efe149f7504ad07a11e998'
+  version '0.9.6'
+  sha256 '0e480f0097f70f9c76cdfea1055437e14f23699bdf64ce71a742a7c7097cb383'
 
-  url 'http://dffd.wimbli.com/download.php?id=7922&f=Macnewbie_0.9.3.dmg'
+  url "http://dffd.wimbli.com/download.php?id=7922&f=Macnewbie_#{version}.dmg"
   homepage 'http://www.bay12forums.com/smf/index.php?topic=128960'
 
   link 'Macnewbie'
