@@ -3,7 +3,7 @@ homebrew-unofficial
 
 Casks of unofficial builds for homebrew-cask
 
-This repository contains Caskfiles for apps that have user-contributed (unofficial) app bundles, because no official app bundle download source exists. For apps with verified, official download sources, see the [main `homebrew-cask` project](http://www.github.com/phinze/homebrew-cask)
+This repository contains Caskfiles for apps that have user-contributed (unofficial) app bundles, because no official app bundle download source exists. For apps with verified, official download sources, see the [main `homebrew-cask` project](http://www.github.com/caskroom/homebrew-cask)
 
 > **IMPORTANT:** By using the Caskfiles in this repository, you are tapping into *untrusted software*! While we try our best to audit Caskfiles and ensure their operation, we cannot offer any guarantee on the software provided.
 
