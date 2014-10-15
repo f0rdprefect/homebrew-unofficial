@@ -2,8 +2,9 @@ class Bughub < Cask
   version '1.0.1'
   sha256 'd5fa398386b55ea6881be46e858c12dc906579d07d62fbc7bd5f4d03dd2fa1fd'
 
-  url 'https://github.com/alehouse/BugHub/raw/master/downloads/BugHub_1.0.1.tgz'
+  url "https://github.com/alehouse/BugHub/raw/master/downloads/BugHub_#{version}.tgz"
   homepage 'https://github.com/Me1000/BugHub'
+  license :oss
 
   app 'BugHub.app'
 end

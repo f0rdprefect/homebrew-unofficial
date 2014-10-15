@@ -4,6 +4,7 @@ class DwarfFortressMacnewbie < Cask
 
   url "http://dffd.wimbli.com/download.php?id=7922&f=Macnewbie_#{version}.dmg"
   homepage 'http://www.bay12forums.com/smf/index.php?topic=128960'
+  license :unknown
 
   suite 'Macnewbie'
   caveats do
