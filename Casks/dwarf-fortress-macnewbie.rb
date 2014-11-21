@@ -1,4 +1,4 @@
-class DwarfFortressMacnewbie < Cask
+cask :v1 => 'dwarf-fortress-macnewbie' do
   version '0.9.9'
   sha256 'ca04045341330e2258e1eedf296eefa2b5fe339c7a01618449f4b1adf6478358'
 
