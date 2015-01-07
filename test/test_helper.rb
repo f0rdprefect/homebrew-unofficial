@@ -1,10 +1,15 @@
 require 'bundler'
 require 'bundler/setup'
 
+# just in case
+if RUBY_VERSION.to_i < 2
+  raise 'brew-cask: Ruby 2.0 or greater is required.'
+end
+
 homebrew_path = Pathname(`brew --prefix`.chomp)
 homebrew_path = Pathname('/usr/local') unless homebrew_path.exist?
 
-# add cask lib to load path
+# add homebrew-cask lib to load path
 brew_cask_path = homebrew_path.join('Library', 'Taps', 'caskroom', 'homebrew-cask')
 lib_path = brew_cask_path.join('lib')
 $:.push(lib_path)
@@ -19,7 +24,7 @@ require 'minitest/autorun'
 # require 'minitest-colorize'
 
 # our baby
-require 'cask'
+require 'hbc'
 
 # pretend like we installed the cask tap
 project_root = Pathname.new(File.expand_path("#{File.dirname(__FILE__)}/../"))
